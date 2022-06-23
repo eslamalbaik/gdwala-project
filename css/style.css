@@ -303,6 +303,10 @@ span {
         padding: 1rem;
         text-align: center;
     }
+
+    .scheduler-section img {
+        margin-right: 0 !important;
+    }
 }
 
 @media all and (max-width: 600px) {
@@ -319,6 +323,10 @@ span {
         text-align: center;
     }
 
+    .scheduler-section img {
+        margin-right: 0 !important;
+    }
+
 }
 
 @media (max-width: 480px) {
@@ -329,6 +337,10 @@ span {
     .scheduler-section {
         height: auto;
         text-align: center;
+    }
+
+    .scheduler-section img {
+        margin-right: 0 !important;
     }
 }
 
@@ -380,8 +392,8 @@ span {
 .scheduler-time .parts img {
     width: 130px;
     height: 120px;
-
     text-align: center;
+    margin-right: 80px;
     transition: 0.6s;
 }
 
